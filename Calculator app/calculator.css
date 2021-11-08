@@ -1,0 +1,107 @@
+html{
+    width: 35%;
+    margin: auto;
+}
+
+.title{
+    text-align:center ;
+}
+#enter{
+    width: 98.8%;
+    background-color: black;
+    height: 25px;
+}
+
+.all{
+    border: black solid 4px;
+    height:300px ;
+    display: grid; 
+    column-gap: 5px;
+    background-color: black;
+    padding: 3px;
+    column-gap: 8px;
+    row-gap: 8px;
+    grid: 
+   'seven eight nine slash'
+   'four five six star'
+   'one two three minus'
+   'zero period equal plus'
+   ;
+}
+
+.all :hover{
+    background-color:rgb(206, 206, 206);
+}
+
+.textview{
+    width: 501px;
+    margin: 5px;
+    font-size: 25px;
+    background-color: darkgrey;
+    }	
+
+#seven{
+    grid-area:"seven";
+}
+#eight{
+    grid-area:"eight";
+}
+#nine{
+    grid-area:"nine";
+}
+#division{
+    grid-area:"slash";
+    background-color: darkgrey;
+    font-size: 18px;
+}
+#four{
+    grid-area:"four";
+}
+#five{
+    grid-area:"five";
+}
+#six{
+    grid-area:"six";
+}
+#star{
+    grid-area:"star";
+    background-color: darkgrey;
+
+}
+#one{
+    grid-area:"one";
+}
+#two{
+    grid-area:"two";
+}
+#three{
+    grid-area:"three";
+}
+#minus{
+    grid-area:"minus";
+    background-color: darkgrey;
+    font-size: 20px;
+
+}
+#zero{
+    grid-area:"zero";
+}
+#clear{
+    grid-area:"clear";
+    background-color: darkgrey;
+
+}
+#equal{
+    grid-area:"equal";
+    background-color: orange;
+
+}
+#plus{
+    grid-area:"plus";
+    background-color: darkgrey;
+    font-size: 18px;
+
+
+}
+
+
